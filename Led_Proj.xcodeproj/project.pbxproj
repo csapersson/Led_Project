@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D792DD01E3BF17A004BB8A6 /* Refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D792DCF1E3BF17A004BB8A6 /* Refresh.png */; };
+		8D792DD61E3BF4DB004BB8A6 /* Aero_Matics_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D792DD51E3BF4AE004BB8A6 /* Aero_Matics_Light.ttf */; };
+		8D9BFC451E38243B000E8909 /* About@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BFC441E38243B000E8909 /* About@2x.png */; };
+		8DF54D921E30FD5A00A81541 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF54D911E30FD5A00A81541 /* main.m */; };
+		8DF54D951E30FD5A00A81541 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF54D941E30FD5A00A81541 /* AppDelegate.m */; };
+		8DF54D981E30FD5A00A81541 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF54D971E30FD5A00A81541 /* ViewController.m */; };
+		8DF54D9B1E30FD5A00A81541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF54D991E30FD5A00A81541 /* Main.storyboard */; };
+		8DF54D9E1E30FD5A00A81541 /* Led_Proj.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DF54D9C1E30FD5A00A81541 /* Led_Proj.xcdatamodeld */; };
+		8DF54DA01E30FD5A00A81541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF54D9F1E30FD5A00A81541 /* Assets.xcassets */; };
+		8DF54DA31E30FD5A00A81541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF54DA11E30FD5A00A81541 /* LaunchScreen.storyboard */; };
+		8DF54DAE1E30FD5A00A81541 /* Led_ProjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF54DAD1E30FD5A00A81541 /* Led_ProjTests.m */; };
+		8DF54DB91E30FD5A00A81541 /* Led_ProjUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF54DB81E30FD5A00A81541 /* Led_ProjUITests.m */; };
+		8DF8B0811E3831D300F00CF4 /* Happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DF8B07F1E3831D300F00CF4 /* Happy.png */; };
+		8DF8B0851E391F4600F00CF4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF8B0841E391F4600F00CF4 /* SystemConfiguration.framework */; };
+		8DF8B0A11E3996B600F00CF4 /* Sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DF8B0991E3996B500F00CF4 /* Sad.png */; };
+		8DF8B0AF1E3BEEA500F00CF4 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF8B0AE1E3BEEA500F00CF4 /* AboutViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DF54DAA1E30FD5A00A81541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DF54D851E30FD5A00A81541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DF54D8C1E30FD5A00A81541;
+			remoteInfo = Led_Proj;
+		};
+		8DF54DB51E30FD5A00A81541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DF54D851E30FD5A00A81541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DF54D8C1E30FD5A00A81541;
+			remoteInfo = Led_Proj;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D792DCF1E3BF17A004BB8A6 /* Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Refresh.png; sourceTree = "<group>"; };
+		8D792DD51E3BF4AE004BB8A6 /* Aero_Matics_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aero_Matics_Light.ttf; sourceTree = "<group>"; };
+		8D9BFC441E38243B000E8909 /* About@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "About@2x.png"; sourceTree = "<group>"; };
+		8DF54D8D1E30FD5A00A81541 /* Led_Proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Led_Proj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF54D911E30FD5A00A81541 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DF54D931E30FD5A00A81541 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DF54D941E30FD5A00A81541 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DF54D961E30FD5A00A81541 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8DF54D971E30FD5A00A81541 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8DF54D9A1E30FD5A00A81541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DF54D9D1E30FD5A00A81541 /* Led_Proj.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Led_Proj.xcdatamodel; sourceTree = "<group>"; };
+		8DF54D9F1E30FD5A00A81541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DF54DA21E30FD5A00A81541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DF54DA41E30FD5A00A81541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF54DA91E30FD5A00A81541 /* Led_ProjTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Led_ProjTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF54DAD1E30FD5A00A81541 /* Led_ProjTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Led_ProjTests.m; sourceTree = "<group>"; };
+		8DF54DAF1E30FD5A00A81541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF54DB41E30FD5A00A81541 /* Led_ProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Led_ProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF54DB81E30FD5A00A81541 /* Led_ProjUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Led_ProjUITests.m; sourceTree = "<group>"; };
+		8DF54DBA1E30FD5A00A81541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF8B07F1E3831D300F00CF4 /* Happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Happy.png; sourceTree = "<group>"; };
+		8DF8B0841E391F4600F00CF4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8DF8B0991E3996B500F00CF4 /* Sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sad.png; sourceTree = "<group>"; };
+		8DF8B0AD1E3BEEA500F00CF4 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../AboutViewController.h; sourceTree = "<group>"; };
+		8DF8B0AE1E3BEEA500F00CF4 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DF54D8A1E30FD5A00A81541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF8B0851E391F4600F00CF4 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF54DA61E30FD5A00A81541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF54DB11E30FD5A00A81541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DF54D841E30FD5A00A81541 = {
+			isa = PBXGroup;
+			children = (
+				8DF54D8F1E30FD5A00A81541 /* Led_Proj */,
+				8DF54DAC1E30FD5A00A81541 /* Led_ProjTests */,
+				8DF54DB71E30FD5A00A81541 /* Led_ProjUITests */,
+				8DF54D8E1E30FD5A00A81541 /* Products */,
+				8DF8B0831E391F4600F00CF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8DF54D8E1E30FD5A00A81541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DF54D8D1E30FD5A00A81541 /* Led_Proj.app */,
+				8DF54DA91E30FD5A00A81541 /* Led_ProjTests.xctest */,
+				8DF54DB41E30FD5A00A81541 /* Led_ProjUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DF54D8F1E30FD5A00A81541 /* Led_Proj */ = {
+			isa = PBXGroup;
+			children = (
+				8DF54D931E30FD5A00A81541 /* AppDelegate.h */,
+				8DF54D941E30FD5A00A81541 /* AppDelegate.m */,
+				8DF54D991E30FD5A00A81541 /* Main.storyboard */,
+				8DF54D961E30FD5A00A81541 /* ViewController.h */,
+				8DF54D971E30FD5A00A81541 /* ViewController.m */,
+				8DF8B0AD1E3BEEA500F00CF4 /* AboutViewController.h */,
+				8DF8B0AE1E3BEEA500F00CF4 /* AboutViewController.m */,
+				8DF54D9F1E30FD5A00A81541 /* Assets.xcassets */,
+				8DF54DA11E30FD5A00A81541 /* LaunchScreen.storyboard */,
+				8DF54DA41E30FD5A00A81541 /* Info.plist */,
+				8DF54D9C1E30FD5A00A81541 /* Led_Proj.xcdatamodeld */,
+				8DF54D901E30FD5A00A81541 /* Supporting Files */,
+			);
+			path = Led_Proj;
+			sourceTree = "<group>";
+		};
+		8DF54D901E30FD5A00A81541 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D792DD51E3BF4AE004BB8A6 /* Aero_Matics_Light.ttf */,
+				8D792DCF1E3BF17A004BB8A6 /* Refresh.png */,
+				8DF8B0991E3996B500F00CF4 /* Sad.png */,
+				8DF8B07F1E3831D300F00CF4 /* Happy.png */,
+				8D9BFC441E38243B000E8909 /* About@2x.png */,
+				8DF54D911E30FD5A00A81541 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DF54DAC1E30FD5A00A81541 /* Led_ProjTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DF54DAD1E30FD5A00A81541 /* Led_ProjTests.m */,
+				8DF54DAF1E30FD5A00A81541 /* Info.plist */,
+			);
+			path = Led_ProjTests;
+			sourceTree = "<group>";
+		};
+		8DF54DB71E30FD5A00A81541 /* Led_ProjUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DF54DB81E30FD5A00A81541 /* Led_ProjUITests.m */,
+				8DF54DBA1E30FD5A00A81541 /* Info.plist */,
+			);
+			path = Led_ProjUITests;
+			sourceTree = "<group>";
+		};
+		8DF8B0831E391F4600F00CF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DF8B0841E391F4600F00CF4 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DF54D8C1E30FD5A00A81541 /* Led_Proj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DF54DBD1E30FD5A00A81541 /* Build configuration list for PBXNativeTarget "Led_Proj" */;
+			buildPhases = (
+				8DF54D891E30FD5A00A81541 /* Sources */,
+				8DF54D8A1E30FD5A00A81541 /* Frameworks */,
+				8DF54D8B1E30FD5A00A81541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Led_Proj;
+			productName = Led_Proj;
+			productReference = 8DF54D8D1E30FD5A00A81541 /* Led_Proj.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DF54DA81E30FD5A00A81541 /* Led_ProjTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DF54DC01E30FD5A00A81541 /* Build configuration list for PBXNativeTarget "Led_ProjTests" */;
+			buildPhases = (
+				8DF54DA51E30FD5A00A81541 /* Sources */,
+				8DF54DA61E30FD5A00A81541 /* Frameworks */,
+				8DF54DA71E30FD5A00A81541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DF54DAB1E30FD5A00A81541 /* PBXTargetDependency */,
+			);
+			name = Led_ProjTests;
+			productName = Led_ProjTests;
+			productReference = 8DF54DA91E30FD5A00A81541 /* Led_ProjTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DF54DB31E30FD5A00A81541 /* Led_ProjUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DF54DC31E30FD5A00A81541 /* Build configuration list for PBXNativeTarget "Led_ProjUITests" */;
+			buildPhases = (
+				8DF54DB01E30FD5A00A81541 /* Sources */,
+				8DF54DB11E30FD5A00A81541 /* Frameworks */,
+				8DF54DB21E30FD5A00A81541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DF54DB61E30FD5A00A81541 /* PBXTargetDependency */,
+			);
+			name = Led_ProjUITests;
+			productName = Led_ProjUITests;
+			productReference = 8DF54DB41E30FD5A00A81541 /* Led_ProjUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DF54D851E30FD5A00A81541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Simon Persson";
+				TargetAttributes = {
+					8DF54D8C1E30FD5A00A81541 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = ACU654FE2E;
+						ProvisioningStyle = Automatic;
+					};
+					8DF54DA81E30FD5A00A81541 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = ACU654FE2E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8DF54D8C1E30FD5A00A81541;
+					};
+					8DF54DB31E30FD5A00A81541 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = ACU654FE2E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8DF54D8C1E30FD5A00A81541;
+					};
+				};
+			};
+			buildConfigurationList = 8DF54D881E30FD5A00A81541 /* Build configuration list for PBXProject "Led_Proj" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DF54D841E30FD5A00A81541;
+			productRefGroup = 8DF54D8E1E30FD5A00A81541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DF54D8C1E30FD5A00A81541 /* Led_Proj */,
+				8DF54DA81E30FD5A00A81541 /* Led_ProjTests */,
+				8DF54DB31E30FD5A00A81541 /* Led_ProjUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DF54D8B1E30FD5A00A81541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D792DD61E3BF4DB004BB8A6 /* Aero_Matics_Light.ttf in Resources */,
+				8DF54DA31E30FD5A00A81541 /* LaunchScreen.storyboard in Resources */,
+				8DF54DA01E30FD5A00A81541 /* Assets.xcassets in Resources */,
+				8D9BFC451E38243B000E8909 /* About@2x.png in Resources */,
+				8DF8B0811E3831D300F00CF4 /* Happy.png in Resources */,
+				8DF54D9B1E30FD5A00A81541 /* Main.storyboard in Resources */,
+				8DF8B0A11E3996B600F00CF4 /* Sad.png in Resources */,
+				8D792DD01E3BF17A004BB8A6 /* Refresh.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF54DA71E30FD5A00A81541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF54DB21E30FD5A00A81541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DF54D891E30FD5A00A81541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF54D9E1E30FD5A00A81541 /* Led_Proj.xcdatamodeld in Sources */,
+				8DF8B0AF1E3BEEA500F00CF4 /* AboutViewController.m in Sources */,
+				8DF54D981E30FD5A00A81541 /* ViewController.m in Sources */,
+				8DF54D951E30FD5A00A81541 /* AppDelegate.m in Sources */,
+				8DF54D921E30FD5A00A81541 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF54DA51E30FD5A00A81541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF54DAE1E30FD5A00A81541 /* Led_ProjTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF54DB01E30FD5A00A81541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF54DB91E30FD5A00A81541 /* Led_ProjUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DF54DAB1E30FD5A00A81541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DF54D8C1E30FD5A00A81541 /* Led_Proj */;
+			targetProxy = 8DF54DAA1E30FD5A00A81541 /* PBXContainerItemProxy */;
+		};
+		8DF54DB61E30FD5A00A81541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DF54D8C1E30FD5A00A81541 /* Led_Proj */;
+			targetProxy = 8DF54DB51E30FD5A00A81541 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DF54D991E30FD5A00A81541 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DF54D9A1E30FD5A00A81541 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DF54DA11E30FD5A00A81541 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DF54DA21E30FD5A00A81541 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DF54DBB1E30FD5A00A81541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DF54DBC1E30FD5A00A81541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DF54DBE1E30FD5A00A81541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ACU654FE2E;
+				INFOPLIST_FILE = Led_Proj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Simon-Persson.Led-Proj";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8DF54DBF1E30FD5A00A81541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ACU654FE2E;
+				INFOPLIST_FILE = Led_Proj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Simon-Persson.Led-Proj";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8DF54DC11E30FD5A00A81541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ACU654FE2E;
+				INFOPLIST_FILE = Led_ProjTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Simon-Persson.Led-ProjTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Led_Proj.app/Led_Proj";
+			};
+			name = Debug;
+		};
+		8DF54DC21E30FD5A00A81541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ACU654FE2E;
+				INFOPLIST_FILE = Led_ProjTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Simon-Persson.Led-ProjTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Led_Proj.app/Led_Proj";
+			};
+			name = Release;
+		};
+		8DF54DC41E30FD5A00A81541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ACU654FE2E;
+				INFOPLIST_FILE = Led_ProjUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Simon-Persson.Led-ProjUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Led_Proj;
+			};
+			name = Debug;
+		};
+		8DF54DC51E30FD5A00A81541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ACU654FE2E;
+				INFOPLIST_FILE = Led_ProjUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Simon-Persson.Led-ProjUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Led_Proj;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DF54D881E30FD5A00A81541 /* Build configuration list for PBXProject "Led_Proj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF54DBB1E30FD5A00A81541 /* Debug */,
+				8DF54DBC1E30FD5A00A81541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DF54DBD1E30FD5A00A81541 /* Build configuration list for PBXNativeTarget "Led_Proj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF54DBE1E30FD5A00A81541 /* Debug */,
+				8DF54DBF1E30FD5A00A81541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DF54DC01E30FD5A00A81541 /* Build configuration list for PBXNativeTarget "Led_ProjTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF54DC11E30FD5A00A81541 /* Debug */,
+				8DF54DC21E30FD5A00A81541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DF54DC31E30FD5A00A81541 /* Build configuration list for PBXNativeTarget "Led_ProjUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF54DC41E30FD5A00A81541 /* Debug */,
+				8DF54DC51E30FD5A00A81541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8DF54D9C1E30FD5A00A81541 /* Led_Proj.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DF54D9D1E30FD5A00A81541 /* Led_Proj.xcdatamodel */,
+			);
+			currentVersion = 8DF54D9D1E30FD5A00A81541 /* Led_Proj.xcdatamodel */;
+			path = Led_Proj.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8DF54D851E30FD5A00A81541 /* Project object */;
+}
